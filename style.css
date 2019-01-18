@@ -1,0 +1,31 @@
+body { background-color: darkgrey;
+ color: rgb(0,0,0);
+ font-family: Arial, Helvetica, sans-serif; }
+h1{background-color: darkgrey;
+ color:rgb(0,0,0); }
+h3{background-color:darkgrey;
+ color:rgb(0,0,0);
+ font-weight:bold;}
+.image {
+float:left;
+}
+nav{
+    color: black;
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+nav li{
+    display: inline-block;
+}
+.contact { font-family: "Times New Roman", serif;
+ font-size: .90em;
+ font-weight:bold; }
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
