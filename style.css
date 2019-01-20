@@ -29,3 +29,11 @@ nav li{
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+@keyframes bounce {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
