@@ -19,7 +19,7 @@ nav ul{
 nav li{
     display: inline-block;
 }
-.contact { font-family: "Times New Roman", serif;
+.contact { 
  font-size: .90em;
  font-weight:bold; }
 .rotate90 {
