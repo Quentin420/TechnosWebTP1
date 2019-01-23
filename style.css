@@ -10,7 +10,7 @@ h3{background-color:darkgrey;
 float:left;
 }
 nav{
-    color: black;
+   
 }
 nav ul{
     padding: 0px;
@@ -19,9 +19,16 @@ nav ul{
 nav li{
     display: inline-block;
 }
-.contact { 
- font-size: .90em;
- font-weight:bold; }
+footer{
+    background-color: rgb(0,0,0);
+    color:rgb(255,255,255);
+    text-align: center;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
